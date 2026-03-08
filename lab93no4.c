@@ -6,15 +6,14 @@ void countVowel(char t[], int vowelCount[]);
 
 int main() {
     char text[MAX];
-    int vowelCount[5] = {0, 0, 0, 0, 0};  // ?????? a, e, i, o, u ????????
+    int vowelCount[5] = {0, 0, 0, 0, 0};
     int totalVowels = 0;
     
     printf("Enter text : ");
     scanf("%s", text);
     
     countVowel(text, vowelCount);
-    
-    // ????????????????????
+
     for(int i = 0; i < 5; i++) {
         totalVowels += vowelCount[i];
     }
@@ -58,4 +57,5 @@ void countVowel(char t[], int vowelCount[]) {
         }
         i++;
     }
+
 }
