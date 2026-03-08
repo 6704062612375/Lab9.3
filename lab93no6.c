@@ -1,7 +1,3 @@
-/*
- * C Program to Remove all Characters in Second String which are 
- * present in First String and report deletion statistics
- */
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -88,4 +84,5 @@ int main ()
     printf ("\nFinal result: %s\n", str_rem);
     
     return 0;
+
 }
